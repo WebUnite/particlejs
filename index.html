@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>particles</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:100,400' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="js/particle.js"></script>
+        <link rel="stylesheet" href="css/zenburn.css">
+        <script src="js/highlight.pack.js"></script>
+        
+        <style type="text/css">
+            body{
+                margin: 0;
+                font-family: "raleway" sans-serif;
+                color: #ffffff;
+                cursor: none;
+            }
+            pre{
+                margin: 0;
+            }
+            code{
+                border: 2px inset #B5B5B5;
+            }
+            #particles{
+                -ms-filter: blur(1px);
+                -webkit-filter: blur(1px);
+            }
+            #yline{
+                background: #ffffff;
+                height: 100%;
+                top: 0;
+                width: 1px;
+                z-index: -10;
+                position: absolute;
+
+            }
+
+            #xline{
+                background: #ffffff;
+                height: 1px;
+                width: 100%;
+                z-index: -10;
+                position: absolute;
+            }
+            .center{
+                z-index: 1;
+                margin: 0 auto;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                padding: 30px;
+                border-radius: 30px;
+                width: 800px;
+                background-color: #34495e;
+            }
+        </style>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <script>hljs.initHighlightingOnLoad();</script>
+        <div id="particles"></div>
+        <div id="xline"></div>
+        <div id="yline"></div>
+
+    </body>
+</html>
